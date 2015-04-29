@@ -1,0 +1,751 @@
+.====================================================================.
+                                                                      
+ .d8888b.   .o8888b.   db  .d8888b.  d8888b. d88888b d8888b.  .d888b. 
+.8P    Y8. d8P    Y8   88 .8P    Y8. 88  `8D 88'     88  `8D .8P , Y8.
+88      88 8P      oooo88 88      88 88oooY' 88oooo  88oobY' 88  |  88
+88      88 8b      ~~~~88 88      88 88~~~b. 88~~~~  88`8b   88  |/ 88
+`8b    d8' Y8b    d8   88 `8b    d8' 88   8D 88.     88 `88. `8b | d8'
+ `Y8888P'   `Y8888P'   YP  `Y8888P'  Y8888P' Y88888P 88   YD  `Y888P' 
+                                                                      
+`========================== INSTALLATION LOG ========================'
+
+[2015/04/29 10:18:08] Host: Windows NT JOHN-PC 6.1 build 7601 (Windows 7 Ultimate Edition Service Pack 1) i586
+[2015/04/29 10:18:08] PHP version: 5.4.33
+[2015/04/29 10:18:08] Server software: Apache/2.4.10 (Win32) OpenSSL/0.9.8zb mod_fcgid/2.3.9
+[2015/04/29 10:18:08] Operating system: WINNT
+[2015/04/29 10:18:08] Memory limit: 128M
+[2015/04/29 10:18:08] Max execution time: 3600
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:18:08] Postback payload: Array
+(
+    [code] => phpVersion
+    [handler] => onCheckRequirement
+)
+
+[2015/04/29 10:18:08] System check: phpVersion
+[2015/04/29 10:18:08] Requirement phpVersion +OK
+[2015/04/29 10:18:08] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:18:08] Postback payload: Array
+(
+    [code] => curlLibrary
+    [handler] => onCheckRequirement
+)
+
+[2015/04/29 10:18:08] System check: curlLibrary
+[2015/04/29 10:18:09] Requirement curlLibrary +OK
+[2015/04/29 10:18:09] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:18:09] Postback payload: Array
+(
+    [code] => liveConnection
+    [handler] => onCheckRequirement
+)
+
+[2015/04/29 10:18:09] System check: liveConnection
+[2015/04/29 10:18:09] Server request: ping
+[2015/04/29 10:18:09] Request information: Array
+(
+    [url] => http://octobercms.com/api/ping
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 579
+    [request_size] => 161
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.406
+    [namelookup_time] => 0.016
+    [connect_time] => 0.187
+    [pretransfer_time] => 0.187
+    [size_upload] => 30
+    [size_download] => 14
+    [speed_download] => 34
+    [speed_upload] => 73
+    [download_content_length] => 14
+    [upload_content_length] => 30
+    [starttransfer_time] => 0.406
+    [redirect_time] => 0
+    [certinfo] => Array
+        (
+        )
+
+    [primary_ip] => 50.116.3.170
+    [primary_port] => 80
+    [local_ip] => 192.168.6.46
+    [local_port] => 61579
+    [redirect_url] => 
+)
+
+[2015/04/29 10:18:09] Requirement liveConnection +OK
+[2015/04/29 10:18:09] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:18:10] Postback payload: Array
+(
+    [code] => writePermission
+    [handler] => onCheckRequirement
+)
+
+[2015/04/29 10:18:10] System check: writePermission
+[2015/04/29 10:18:10] Requirement writePermission +OK
+[2015/04/29 10:18:10] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:18:10] Postback payload: Array
+(
+    [code] => pdoLibrary
+    [handler] => onCheckRequirement
+)
+
+[2015/04/29 10:18:10] System check: pdoLibrary
+[2015/04/29 10:18:10] Requirement pdoLibrary +OK
+[2015/04/29 10:18:10] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:18:11] Postback payload: Array
+(
+    [code] => mcryptLibrary
+    [handler] => onCheckRequirement
+)
+
+[2015/04/29 10:18:11] System check: mcryptLibrary
+[2015/04/29 10:18:11] Requirement mcryptLibrary +OK
+[2015/04/29 10:18:11] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:18:12] Postback payload: Array
+(
+    [code] => mbstringLibrary
+    [handler] => onCheckRequirement
+)
+
+[2015/04/29 10:18:12] System check: mbstringLibrary
+[2015/04/29 10:18:12] Requirement mbstringLibrary +OK
+[2015/04/29 10:18:12] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:18:12] Postback payload: Array
+(
+    [code] => sslLibrary
+    [handler] => onCheckRequirement
+)
+
+[2015/04/29 10:18:12] System check: sslLibrary
+[2015/04/29 10:18:12] Requirement sslLibrary +OK
+[2015/04/29 10:18:12] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:18:13] Postback payload: Array
+(
+    [code] => zipLibrary
+    [handler] => onCheckRequirement
+)
+
+[2015/04/29 10:18:13] System check: zipLibrary
+[2015/04/29 10:18:13] Requirement zipLibrary +OK
+[2015/04/29 10:18:13] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:18:13] Postback payload: Array
+(
+    [code] => gdLibrary
+    [handler] => onCheckRequirement
+)
+
+[2015/04/29 10:18:13] System check: gdLibrary
+[2015/04/29 10:18:13] Requirement gdLibrary +OK
+[2015/04/29 10:18:13] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:19:07] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => october
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Admin
+    [admin_last_name] => Person
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onValidateDatabase
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:19:08] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => october
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Admin
+    [admin_last_name] => Person
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onValidateAdminAccount
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:19:08] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => october
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Admin
+    [admin_last_name] => Person
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onValidateAdvancedConfig
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:19:23] Postback payload: Array
+(
+    [handler] => onGetPopularThemes
+)
+
+[2015/04/29 10:19:24] Server request: theme/popular
+[2015/04/29 10:19:24] Request information: Array
+(
+    [url] => http://octobercms.com/api/theme/popular
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 587
+    [request_size] => 170
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.499
+    [namelookup_time] => 0
+    [connect_time] => 0.219
+    [pretransfer_time] => 0.219
+    [size_upload] => 30
+    [size_download] => 1378
+    [speed_download] => 2761
+    [speed_upload] => 60
+    [download_content_length] => 1378
+    [upload_content_length] => 30
+    [starttransfer_time] => 0.499
+    [redirect_time] => 0
+    [certinfo] => Array
+        (
+        )
+
+    [primary_ip] => 50.116.3.170
+    [primary_port] => 80
+    [local_ip] => 192.168.6.46
+    [local_port] => 61704
+    [redirect_url] => 
+)
+
+[2015/04/29 10:19:24] Execute handler (onGetPopularThemes): Array
+(
+    [0] => Array
+        (
+            [name] => Vanilla
+            [description] => A plain starter template that implements account management, a blog and community forum.
+            [code] => RainLab.Vanilla
+            [updated_at] => 2015-04-14 16:37:36
+            [image] => http://octobercms.com/storage/app/uploads/public/552/da4/0f8/thumb_2106_210x140_0_0_crop.jpg
+            [author] => RainLab
+            [hash] => 7ad6ad2dd2f0b048fc88f3d785c8f3cf
+            [demo_url] => 
+            [product_url] => http://octobercms.com/theme/rainlab-vanilla
+        )
+
+    [1] => Array
+        (
+            [name] => Squad
+            [description] => Squad is a free Bootstrap template from BootstrapTaste for creatives, with a simple and modern layout.
+            [code] => FabricioRabelo.Squad
+            [updated_at] => 2015-03-13 03:12:19
+            [image] => http://octobercms.com/storage/app/uploads/public/550/1dc/ab8/thumb_1856_210x140_0_0_crop.jpg
+            [author] => Fabricio Rabelo
+            [hash] => 51d8895eebb41014c40666339c9547a5
+            [demo_url] => http://squad.fabriciorabelo.com
+            [product_url] => http://octobercms.com/theme/fabriciorabelo-squad
+        )
+
+    [2] => Array
+        (
+            [name] => Flat UI
+            [description] => A theme that uses a Flat user-interface and has no dependencies on others plugins.
+            [code] => Responsiv.Flat
+            [updated_at] => 2014-07-23 21:32:51
+            [image] => http://octobercms.com/storage/app/uploads/public/53d/084/fbc/thumb_543_210x140_0_0_crop.jpg
+            [author] => Responsiv Internet
+            [hash] => 463117738421d4b358accaec12d252dd
+            [demo_url] => 
+            [product_url] => http://octobercms.com/theme/responsiv-flat
+        )
+
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:19:41] Postback payload: Array
+(
+    [name] => Responsiv.Flat
+    [handler] => onThemeDetails
+)
+
+[2015/04/29 10:19:41] Server request: theme/detail
+[2015/04/29 10:19:41] Request information: Array
+(
+    [url] => http://octobercms.com/api/theme/detail
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 580
+    [request_size] => 189
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.406
+    [namelookup_time] => 0
+    [connect_time] => 0.188
+    [pretransfer_time] => 0.188
+    [size_upload] => 50
+    [size_download] => 452
+    [speed_download] => 1113
+    [speed_upload] => 123
+    [download_content_length] => 452
+    [upload_content_length] => 50
+    [starttransfer_time] => 0.406
+    [redirect_time] => 0
+    [certinfo] => Array
+        (
+        )
+
+    [primary_ip] => 50.116.3.170
+    [primary_port] => 80
+    [local_ip] => 192.168.6.46
+    [local_port] => 61753
+    [redirect_url] => 
+)
+
+[2015/04/29 10:19:41] Execute handler (onThemeDetails): Array
+(
+    [name] => Flat UI
+    [description] => A theme that uses a Flat user-interface and has no dependencies on others plugins.
+    [code] => Responsiv.Flat
+    [updated_at] => 2014-07-23 21:32:51
+    [image] => http://octobercms.com/storage/app/uploads/public/53d/084/fbc/thumb_543_210x140_0_0_crop.jpg
+    [author] => Responsiv Internet
+    [hash] => 463117738421d4b358accaec12d252dd
+    [demo_url] => 
+    [product_url] => http://octobercms.com/theme/responsiv-flat
+    [require] => Array
+        (
+        )
+
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:19:41] Postback payload: Array
+(
+    [step] => getMetaData
+    [meta] => 
+    [themes] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Flat UI
+                    [description] => A theme that uses a Flat user-interface and has no dependencies on others plugins.
+                    [code] => Responsiv.Flat
+                    [updated_at] => 2014-07-23 21:32:51
+                    [image] => http://octobercms.com/storage/app/uploads/public/53d/084/fbc/thumb_543_210x140_0_0_crop.jpg
+                    [author] => Responsiv Internet
+                    [hash] => 463117738421d4b358accaec12d252dd
+                    [demo_url] => 
+                    [product_url] => http://octobercms.com/theme/responsiv-flat
+                )
+
+        )
+
+    [handler] => onInstallStep
+)
+
+[2015/04/29 10:19:41] Install step: getMetaData
+[2015/04/29 10:19:42] Server request: core/install
+[2015/04/29 10:19:42] Request information: Array
+(
+    [url] => http://octobercms.com/api/core/install
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 578
+    [request_size] => 198
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.452
+    [namelookup_time] => 0
+    [connect_time] => 0.171
+    [pretransfer_time] => 0.171
+    [size_upload] => 59
+    [size_download] => 185
+    [speed_download] => 409
+    [speed_upload] => 130
+    [download_content_length] => 185
+    [upload_content_length] => 59
+    [starttransfer_time] => 0.452
+    [redirect_time] => 0
+    [certinfo] => Array
+        (
+        )
+
+    [primary_ip] => 50.116.3.170
+    [primary_port] => 80
+    [local_ip] => 192.168.6.46
+    [local_port] => 61755
+    [redirect_url] => 
+)
+
+[2015/04/29 10:19:42] Step getMetaData +OK
+[2015/04/29 10:19:42] Execute handler (onInstallStep): Array
+(
+    [result] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => e6587325aa7b0591df6750c8a484d63d
+                    [build] => 251
+                    [uhash] => c51705bf39d979200cf605bcb9156c6f
+                )
+
+            [plugins] => Array
+                (
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Flat] => 463117738421d4b358accaec12d252dd
+                )
+
+        )
+
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:19:42] Postback payload: Array
+(
+    [step] => downloadCore
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => e6587325aa7b0591df6750c8a484d63d
+                    [build] => 251
+                    [uhash] => c51705bf39d979200cf605bcb9156c6f
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Flat] => 463117738421d4b358accaec12d252dd
+                )
+
+        )
+
+    [handler] => onInstallStep
+)
+
+[2015/04/29 10:19:42] Install step: downloadCore
+[2015/04/29 10:20:17] Saving to file (core): C:/Users/John/Desktop/october-master/install_files/temp/a74ad8dfacd4f985eb3977517615ce25.arc
+[2015/04/29 10:20:17] Step downloadCore +OK
+[2015/04/29 10:20:17] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:20:17] Postback payload: Array
+(
+    [step] => downloadTheme
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => e6587325aa7b0591df6750c8a484d63d
+                    [build] => 251
+                    [uhash] => c51705bf39d979200cf605bcb9156c6f
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Flat] => 463117738421d4b358accaec12d252dd
+                )
+
+        )
+
+    [name] => Responsiv.Flat
+    [handler] => onInstallStep
+)
+
+[2015/04/29 10:20:17] Install step: downloadTheme
+[2015/04/29 10:20:27] Saving to file (Responsiv.Flat-theme): C:/Users/John/Desktop/october-master/install_files/temp/286bd374e2836d585587f7959bd6c9a1.arc
+[2015/04/29 10:20:27] Step downloadTheme +OK
+[2015/04/29 10:20:27] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:20:27] Postback payload: Array
+(
+    [step] => extractCore
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => e6587325aa7b0591df6750c8a484d63d
+                    [build] => 251
+                    [uhash] => c51705bf39d979200cf605bcb9156c6f
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Flat] => 463117738421d4b358accaec12d252dd
+                )
+
+        )
+
+    [handler] => onInstallStep
+)
+
+[2015/04/29 10:20:27] Install step: extractCore
+[2015/04/29 10:20:27] Extracting file (core): a74ad8dfacd4f985eb3977517615ce25.arc
+[2015/04/29 10:21:41] Step extractCore +OK
+[2015/04/29 10:21:41] Execute handler (onInstallStep): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:21:42] Postback payload: Array
+(
+    [step] => extractTheme
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => e6587325aa7b0591df6750c8a484d63d
+                    [build] => 251
+                    [uhash] => c51705bf39d979200cf605bcb9156c6f
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Flat] => 463117738421d4b358accaec12d252dd
+                )
+
+        )
+
+    [name] => Responsiv.Flat
+    [handler] => onInstallStep
+)
+
+[2015/04/29 10:21:42] Install step: extractTheme
+[2015/04/29 10:21:42] Extracting file (Responsiv.Flat-theme): 286bd374e2836d585587f7959bd6c9a1.arc
+[2015/04/29 10:21:45] Step extractTheme +OK
+[2015/04/29 10:21:45] Execute handler (onInstallStep): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:21:45] Postback payload: Array
+(
+    [step] => setupConfig
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => e6587325aa7b0591df6750c8a484d63d
+                    [build] => 251
+                    [uhash] => c51705bf39d979200cf605bcb9156c6f
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Flat] => 463117738421d4b358accaec12d252dd
+                )
+
+        )
+
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => october
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Admin
+    [admin_last_name] => Person
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [active_theme] => Responsiv.Flat
+    [handler] => onInstallStep
+)
+
+[2015/04/29 10:21:45] Install step: setupConfig
+[2015/04/29 02:21:46] Step setupConfig +OK
+[2015/04/29 02:21:46] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:21:47] Postback payload: Array
+(
+    [step] => createAdmin
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => e6587325aa7b0591df6750c8a484d63d
+                    [build] => 251
+                    [uhash] => c51705bf39d979200cf605bcb9156c6f
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Flat] => 463117738421d4b358accaec12d252dd
+                )
+
+        )
+
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => october
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Admin
+    [admin_last_name] => Person
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [active_theme] => Responsiv.Flat
+    [handler] => onInstallStep
+)
+
+[2015/04/29 10:21:47] Install step: createAdmin
+[2015/04/29 02:22:33] Step createAdmin +OK
+[2015/04/29 02:22:33] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:22:34] Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2015/04/29 10:22:34] Install step: setupProject
+[2015/04/29 10:22:34] Step setupProject +OK
+[2015/04/29 10:22:34] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2015/04/29 10:22:34] Postback payload: Array
+(
+    [step] => finishInstall
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => e6587325aa7b0591df6750c8a484d63d
+                    [build] => 251
+                    [uhash] => c51705bf39d979200cf605bcb9156c6f
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Flat] => 463117738421d4b358accaec12d252dd
+                )
+
+        )
+
+    [hash] => e6587325aa7b0591df6750c8a484d63d
+    [build] => 251
+    [uhash] => c51705bf39d979200cf605bcb9156c6f
+    [handler] => onInstallStep
+)
+
+[2015/04/29 10:22:34] Install step: finishInstall
+[2015/04/29 02:22:36] Cleaning up file: 286bd374e2836d585587f7959bd6c9a1.arc
+[2015/04/29 02:22:36] Cleaning up file: a74ad8dfacd4f985eb3977517615ce25.arc
+[2015/04/29 02:22:36] Step finishInstall +OK
+[2015/04/29 02:22:36] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
